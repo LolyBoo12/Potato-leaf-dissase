@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 @st.cache_resource
 def load_model(model_name):
     model_paths = {
-        "MobileNet": 'mobilenet.h5',  
+        "MobileNet": 'mobilenet.keras',  
         "ConvNextBase": 'convnextbase.h5',  
         "VGG": 'vgg.h5'  
     }
