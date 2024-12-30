@@ -86,7 +86,7 @@ uploaded_file = st.file_uploader(
 # Tombol submit untuk memulai analisis setelah gambar diunggah
 if uploaded_file:
     img = Image.open(uploaded_file)
-    st.image(img, caption="Gambar yang diunggah", use_column_width=True)
+    st.image(img, caption="Gambar yang diunggah", use_container_width =True)
 
     # Tombol untuk memulai proses
     if st.button("Submit"):
