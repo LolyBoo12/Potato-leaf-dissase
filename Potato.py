@@ -8,9 +8,9 @@ import matplotlib.pyplot as plt
 @st.cache_resource
 def load_model(model_name):
     model_paths = {
-        "MobileNet": 'E:/Model Kentang/mobilenet.h5',  
-        "ConvNextBase": 'E:/Model Kentang/Convnextbase.keras',  
-        "VGG": 'E:/Model Kentang/vgg.h5'  
+        "MobileNet": 'mobilenet.h5',  
+        "ConvNextBase": 'convnextbase.h5',  
+        "VGG": 'vgg.h5'  
     }
     
     model_path = model_paths.get(model_name)
